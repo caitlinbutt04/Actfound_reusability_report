@@ -2,7 +2,7 @@
 This repository contains the code for Reusability Report: evaluating the performance of a meta-learning foundation model on predicting the antibacterial activity of natural products. 
 It is a fork of Actfound_demo (see below for original Actfound_demo README).
 
-## Colab for reusability report
+## Colabs for reusability report
 In this reusability report, we fine-tuned five models with an antibacterial natural products dataset. The following colabs contain the code to fine-tune the models.
 
 - Colab for Actfound
