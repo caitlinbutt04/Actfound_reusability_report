@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
-from Actfound_demo.system_base import RegressorBase
+from Actfound_reusability_report.system_base import RegressorBase
 
-from Actfound_demo.meta_neural_network_architectures import FCNReLUNormNetworkQSAR, AssayFCNReLUNormNetworkReg
+from Actfound_reusability_report.meta_neural_network_architectures import FCNReLUNormNetworkQSAR, AssayFCNReLUNormNetworkReg
 
 
 
@@ -82,4 +82,5 @@ class ProtoNetRegressor(RegressorBase):
                                                       epoch=self.current_epoch,
                                                       num_steps=self.args.test_num_updates,
                                                       is_training_phase=False)
+
         return per_task_target_preds[0]
