@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 import math
 
-from Actfound_demo.inner_loop_optimizers import LSLRGradientDescentLearningRule
+from Actfound_reusability_report.inner_loop_optimizers import LSLRGradientDescentLearningRule
 
 
 def set_torch_seed(seed):
@@ -253,3 +253,4 @@ class RegressorBase(nn.Module):
         state_dict_loaded = state['network']
         self.load_state_dict(state_dict=state_dict_loaded)
         return state
+
