@@ -2,9 +2,9 @@ import torch
 import torch.nn as nn
 import numpy as np
 import json
-from Actfound_demo.system_base import RegressorBase
+from Actfound_reusability_report.system_base import RegressorBase
 
-from Actfound_demo.meta_neural_network_architectures import FCNReLUNormNetworkQSAR, AssayFCNReLUNormNetworkReg
+from Actfound_reusability_report.meta_neural_network_architectures import FCNReLUNormNetworkQSAR, AssayFCNReLUNormNetworkReg
 
 
 class ActFoundRegressor(RegressorBase):
@@ -168,4 +168,5 @@ class ActFoundRegressor(RegressorBase):
 
         loss = torch.sqrt(loss)
         return loss, preds
+
 
