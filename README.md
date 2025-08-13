@@ -5,13 +5,13 @@ It is a fork of Actfound_demo (see below for original Actfound_demo README).
 ## Colabs for reusability report
 In this reusability report, we fine-tuned five models with an antibacterial natural products dataset. The following colabs contain the code to fine-tune the models.
 
-- Colab for Actfound
-  
-    - https://colab.research.google.com/drive/1c-yeku2Z9ZDQqtdyD2D0L3T4j_FBAova?usp=sharing
-  
 - Colab for Actfound with KNN-MAML and fusion method
   
     - https://colab.research.google.com/drive/1rsyZCtmOQ3OV2G2IIlMHysmCwhjh8L9M?usp=sharing
+ 
+- Colab for Actfound Transfer
+  
+    - https://colab.research.google.com/drive/1AYcz_FGjv4zXd_wZjfyECOqjk4Vz-Con?usp=sharing
       
 - Colab for MAML
   
