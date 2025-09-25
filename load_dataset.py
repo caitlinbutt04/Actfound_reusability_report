@@ -34,7 +34,7 @@ def preprocess_assay(lines):
         fingerprints_vect = rdFingerprintGenerator.GetCountFPs(
             [mol], fpType=rdFingerprintGenerator.MorganFP
         )[0]
-        fp_numpy = np.zeros((0,), np.int8)  # Generate target pointer to fill
+        fp_numpy = np.zeros((0,), np.int32)  # Generate target pointer to fill
         DataStructs.ConvertToNumpyArray(fingerprints_vect, fp_numpy)
         pic50_exp = line["pic50_exp"]
         activity_list.append(pic50_exp)
