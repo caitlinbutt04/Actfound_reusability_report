@@ -25,8 +25,9 @@ In this reusability report, we fine-tuned five models with an antibacterial natu
   
     - https://colab.research.google.com/drive/1gJcmdKbzzfMI4EykbpWhqNAeT2mpCylM?usp=sharing
 
-## Download model splits
-Our model split seeds are available on Figshare: https://doi.org/10.6084/m9.figshare.30334318.v1. To recreate our results from the reusability report, the split seeds can be uploaded to the colabs.
+## Download data
+The model split seeds, all datasets, and all results are available on Figshare: https://doi.org/10.6084/m9.figshare.30334318.v2. 
+To recreate our results from the reusability report, the split seeds can be uploaded to the colabs.
   
 # Actfound_demo
 
